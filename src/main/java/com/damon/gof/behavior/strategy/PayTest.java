@@ -1,6 +1,9 @@
 package com.damon.gof.behavior.strategy;
 
 import com.damon.gof.behavior.strategy.pay.*;
+import com.damon.gof.behavior.strategy.pay.impl.AccountPay;
+import com.damon.gof.behavior.strategy.pay.impl.DollarPay;
+import com.damon.gof.behavior.strategy.pay.impl.RmbPay;
 
 /**
  * @description:

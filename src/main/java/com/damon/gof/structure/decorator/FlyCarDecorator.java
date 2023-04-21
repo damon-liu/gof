@@ -17,10 +17,6 @@ public class FlyCarDecorator extends CarDecorator{
     @Override
     public void run(){
         decoratedCar.run();
-        autoRun();
-    }
-
-    private void autoRun(){
         System.out.println("开启飞行模式");
     }
     
